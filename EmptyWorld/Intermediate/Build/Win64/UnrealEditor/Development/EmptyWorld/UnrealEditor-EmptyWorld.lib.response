@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EmptyWorld.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\EmptyWorldEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\UnrealEditor\Development\EmptyWorld\EmptyWorld.cpp.obj"
+"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\UnrealEditor\Development\EmptyWorld\EmptyWorldGameModeBase.cpp.obj"
+"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\UnrealEditor\Development\EmptyWorld\EmptyWorld.init.gen.cpp.obj"
+"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\UnrealEditor\Development\EmptyWorld\EmptyWorldGameModeBase.gen.cpp.obj"
+"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\UnrealEditor\Development\EmptyWorld\Default.rc2.res"
+/OUT:"C:\Users\John\Documents\Unreal Projects\Unreal-VR\EmptyWorld\Intermediate\Build\Win64\UnrealEditor\Development\EmptyWorld\UnrealEditor-EmptyWorld.lib"

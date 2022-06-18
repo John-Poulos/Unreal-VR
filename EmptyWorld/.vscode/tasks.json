@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "EmptyWorld Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Test",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Test",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Test",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Test",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Test",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Test",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorld IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorld IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorld",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorldEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorldEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EmptyWorldEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "EmptyWorldEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EmptyWorldEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\EmptyWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}

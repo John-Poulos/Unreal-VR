@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld\\EmptyWorld.Build.cs",
+		"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld.Target.cs",
+		"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorldEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.1"
+}

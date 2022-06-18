@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "EmptyWorldEditor Editor Win64 Development (EmptyWorld)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_EmptyWorld.json"
+		},
+		{
+			"name": "Win32",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}

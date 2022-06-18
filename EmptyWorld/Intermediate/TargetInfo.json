@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EmptyWorld",
+			"Path": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EmptyWorldEditor",
+			"Path": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorldEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

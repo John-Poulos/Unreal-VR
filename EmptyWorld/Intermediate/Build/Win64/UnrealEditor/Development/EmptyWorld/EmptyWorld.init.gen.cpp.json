@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\john\\documents\\unreal projects\\unreal-vr\\emptyworld\\intermediate\\build\\win64\\unrealeditor\\inc\\emptyworld\\emptyworld.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\john\\documents\\unreal projects\\unreal-vr\\emptyworld\\intermediate\\build\\win64\\emptyworldeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\john\\documents\\unreal projects\\unreal-vr\\emptyworld\\intermediate\\build\\win64\\unrealeditor\\development\\emptyworld\\definitions.emptyworld.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

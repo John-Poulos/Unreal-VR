@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld\\EmptyWorld.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_Default\\EmptyWorld.209.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld\\EmptyWorld.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_Default\\EmptyWorld.209.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld\\EmptyWorld.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_Default\\EmptyWorld.209.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld\\EmptyWorldGameModeBase.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_Default\\EmptyWorld.209.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\Source\\EmptyWorld\\EmptyWorldGameModeBase.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\John\\Documents\\Unreal Projects\\Unreal-VR\\EmptyWorld\\.vscode\\compileCommands_Default\\EmptyWorld.209.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	}
+]
